@@ -4,8 +4,8 @@
 # Created on: March 2022
 # This program is the "Space Aliens" program on the PyBadge
 
-import ugame
 import stage
+import ugame
 
 
 def game_scene():
@@ -17,6 +17,7 @@ def game_scene():
     # repeat forever, game loop
     while True:
         pass # just a placeholder for now
+
     
 if __name__ == "__main__":
     game_scene()
