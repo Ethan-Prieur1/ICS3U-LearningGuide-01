@@ -18,7 +18,7 @@ def game_scene():
     # set the background to image 9 in the image Bank
     #   and the size (10x8 tiles of size 16x16)
     background = stage.Grid(image_bank_background, 10, 8)
-    
+
     # a sprite that will be updated every frame
     ship = stage.Sprite(image_bank_sprites, 5, 75, 66)
 
@@ -34,12 +34,12 @@ def game_scene():
     # repeat forever, game loop
     while True:
         # get user input
-        
+
         # update game logic
-        
+
         # redraw Sprite
         game.render_sprites([ship])
-        game.tick() # wai until refresh rate finishes
+        game.tick()  # wait until refresh rate finishes
 
 
 if __name__ == "__main__":
